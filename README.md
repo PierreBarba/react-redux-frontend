@@ -112,7 +112,7 @@ Clone the project using the following bash command in an appropriate location.
 Go to the project directory.
 
 ```bash
-    cd hello-react-front-end
+    cd react-redux-frontend
 ```
 
 ### Getting Started with Create React App and Redux
