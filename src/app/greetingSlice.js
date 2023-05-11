@@ -4,7 +4,7 @@ export const fetchGreeting = createAsyncThunk(
   'greeting/fetchGreeting',
   async () => {
     const response = await fetch('http://localhost:3001/api/v1/messages');
-    const data = await response.json(); 
+    const data = await response.json();
     return data.greeting;
   },
 );
